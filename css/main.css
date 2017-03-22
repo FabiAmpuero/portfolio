@@ -245,29 +245,37 @@ footer a:hover {
 }
 
 /* ---------------------------------------------------------------------------- SKILLS DRAW -- */
-.fondo-heart {
-    display: inline-block;
-    position: absolute;
-    width: 400px;
-    height: 30px;
-    
-    -webkit-transition-property: height; /* Safari */
-    -webkit-transition-duration: 2.5s; /* Safari */
-    transition-property: height;
-    transition-duration: 2.5s;
-}
-
-.fondo-heart:hover {
-    height: 400px;
-    background: tomato;
-    
-    -webkit-transition:all 0.5s ease;
-    -moz-transition:all 0.5s ease;
-    transition:all 0.5s ease;
-}
-
-.heart {
-    width: 300px;
+.robot{
     position: relative;
+    background: #ccc;
+    height: 80px;
 }
+.colores{
+    position: absolute;
+    height: 10px;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    transition: all 0.5s;
+}
+.colores:hover{
+    height: 80px;
+}
+.rojo{ background: #ff0000; height:20px;}
+.verde{ background: #00ff00; height:20px;}
+.azul{ background: #0000ff; height:20px;}
+
 /* ---------------------------------------------------------------------------- END FOOTER -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
